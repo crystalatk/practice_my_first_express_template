@@ -2,7 +2,7 @@
   "name": "practice_my_first_express_templates",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/crystalatk/practice_my_first_express_template/issues"
   },
-  "homepage": "https://github.com/crystalatk/practice_my_first_express_template#readme"
+  "homepage": "https://github.com/crystalatk/practice_my_first_express_template#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-es6-template-engine": "^2.2.3"
+  }
 }

@@ -1,0 +1,4 @@
+<h1>List of Friends</h1>
+<ul>
+    ${friends.map(friend => `<li><a href='./friends/${friend.handle}'>${friend.name}</a></li>`).join('')}
+</ul>
